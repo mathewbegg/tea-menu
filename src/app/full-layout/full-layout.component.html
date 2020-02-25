@@ -5,8 +5,8 @@
   <mat-menu #mainMenu="matMenu">
     <button (click)="fetchTeas()">Fetch Teas</button>
   </mat-menu>
-  <h1>Mathew's Teas</h1>
+  <h1 class="header">Mathew's Teas</h1>
 </mat-toolbar>
-<div *ngFor="let tea of teas">
-  {{ tea.teaName }}
+<div class="content-area">
+  <tea-info-card *ngFor="let tea of teas" [tea]="tea"> </tea-info-card>
 </div>
