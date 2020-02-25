@@ -3,7 +3,10 @@
     <mat-icon>menu</mat-icon>
   </button>
   <mat-menu #mainMenu="matMenu">
-    Hello
+    <button (click)="fetchTeas()">Fetch Teas</button>
   </mat-menu>
   <h1>Mathew's Teas</h1>
 </mat-toolbar>
+<div *ngFor="let tea of teas">
+  {{ tea.teaName }}
+</div>
