@@ -18,8 +18,4 @@ export class FullLayoutComponent implements OnInit {
       error: err => console.error(err),
     });
   }
-
-  fetchTeas() {
-    console.log('fetch');
-  }
 }

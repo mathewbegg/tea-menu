@@ -3,9 +3,9 @@
     <mat-icon>menu</mat-icon>
   </button>
   <mat-menu #mainMenu="matMenu">
-    <button (click)="fetchTeas()">Fetch Teas</button>
+    Hello
   </mat-menu>
-  <h1 class="header">Mathew's Teas</h1>
+  <div class="header">Mathew's Teas</div>
 </mat-toolbar>
 <div class="content-area">
   <tea-info-card *ngFor="let tea of teas" [tea]="tea"> </tea-info-card>

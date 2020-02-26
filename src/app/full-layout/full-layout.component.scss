@@ -1,9 +1,13 @@
 .content-area {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .header {
   margin: 0 auto;
+  color: #454545;
+  font-weight: 600;
+  font-size: x-large;
+  font-family: 'Source Sans Pro';
 }

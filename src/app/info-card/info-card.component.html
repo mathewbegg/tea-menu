@@ -1,9 +1,13 @@
 <div class="card">
-  <h4>{{ tea.teaName }}</h4>
-  <p class="description">{{ tea.description }}</p>
-  <p><strong>Instructions: </strong>{{ tea.instructions }}</p>
-  <p>
+  <div class="top-section">
+    <div class="name">{{ tea.teaName }}</div>
+    <p class="description">{{ tea.description }}</p>
+  </div>
+  <p class="small-info">
     <strong>ingredients</strong>
     <li *ngFor="let ingredient of tea.ingredients">{{ ingredient }},</li>
+  </p>
+  <p class="small-info">
+    <strong>Instructions: </strong>{{ tea.instructions }}
   </p>
 </div>
