@@ -12,9 +12,10 @@ import {
 } from '@angular/material';
 import { FullLayoutComponent } from './full-layout/full-layout.component';
 import { InfoCardComponent } from './info-card/info-card.component';
+import { LoginScreenComponent } from './login-screen/login-screen.component';
 
 @NgModule({
-  declarations: [AppComponent, FullLayoutComponent, InfoCardComponent],
+  declarations: [AppComponent, FullLayoutComponent, InfoCardComponent, LoginScreenComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
